@@ -1,0 +1,10 @@
+.container_layout{
+    height: 100%;
+    min-height: 100vh;
+    & .layout_child_content{
+        width: 80%;
+        margin:0px auto;
+        padding: 0 10px;
+        background: #f1f1f1;
+    }
+}

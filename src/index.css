@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+* {
+  color: #4c4c4c;
+  font-size: 14px;
+  cursor: url(https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png),default!important;;
 }
 
 code {

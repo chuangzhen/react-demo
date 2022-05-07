@@ -1,0 +1,26 @@
+@import 'src/styles/global.scss';
+.nav {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    align-items: center;
+    padding: 0 80px;
+    background: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: fixed;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    & .nav_btn {
+        font-size: 14px;
+        padding: 5px 10px;
+        @include customPointer;
+        text-shadow: 5px 3px 2px #ccc;
+        font-weight: bolder;
+
+        &:hover {
+            color: var(--hoverNavColor);
+        }
+    }
+}

@@ -1,0 +1,9 @@
+:root {
+    --hoverNavColor: #20c997;
+    --hoverCoverNavColor: #ffffff;
+    --defaultFontSize: 14px;
+}
+
+@mixin customPointer {
+    cursor: url(https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png), pointer !important;
+}
