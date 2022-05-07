@@ -1,3 +1,6 @@
+# 现已改用来写demo,练习react相关知识点
+
+
 # [本项目参考配置过程主要连接] [https://blog.csdn.net/qq_39261142/article/details/116176902]
 # 1 创建项目
 npx  create-react-app my-app --template typescript
